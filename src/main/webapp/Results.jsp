@@ -9,8 +9,8 @@
 <body>
 <h1>Результат</h1>
 <h2>Ваши введеные данные:</h2>
-<p><strong>Радиус:</strong> ${first_result}</p>
-<p><strong>Ответ:</strong> ${result}</p>
+<p><strong>Радиус(mm):</strong> ${first_result}</p>
+<p><strong>Ответ(mm):</strong> ${result}</p>
 
 <form action="${pageContext.request.contextPath}/Form.jsp">
     <input type="submit" name="sign" value="Назад">
