@@ -4,8 +4,8 @@ deploy:
 		secure: SFMyNTY.g2gDbQAAAAs5NC40MS4zNy4yOG4GACqXlt94AWIAAVGA.sADBJ0VBJTdjQNIB9r4ZOdP40VdV6W-ydoCLfebax0E
 app:
 	master: pi223team22
-	ibatullina: pi223team22
-	shaikhov: pi223team22
+	ibatullina: branch-ibatullina
+	shaikhov: branch-shaikhov
 language: java
 script:
 - mvn clean package
